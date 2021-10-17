@@ -57,3 +57,12 @@
 .service-hex:hover .st1 {
   fill: #02B7CE;
 }
+
+/* Add Color to Links */
+a {
+  color: #02B7CE;
+}
+
+a:hover {
+  color: #ababab;
+}
