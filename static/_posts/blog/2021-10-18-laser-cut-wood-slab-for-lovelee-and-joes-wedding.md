@@ -2,6 +2,7 @@
 layout: blog
 title: Laser Cut Wood Slab for Lovelee and Joe's Wedding
 date: 2021-10-18T18:16:38.288Z
+category: Laser Cutting
 thumbnail: /img/uploads/img_7223.jpg
 rating: 5
 ---
