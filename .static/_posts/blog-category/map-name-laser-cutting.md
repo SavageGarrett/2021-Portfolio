@@ -1,3 +1,0 @@
----
-name: Laser Cutting
----
