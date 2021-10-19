@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+    <head>
+        <!-- meta charset -->
+        <meta charset="utf-8">
+        <!-- site title -->
+        <title>Phantom | Personal Resume Template</title>
+        <!-- meta description -->
+        <meta name="description" content="">
+        <!-- mobile viwport meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- fevicon -->
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        
+        {{ partial "head/styles.html" . }}
+    </head>
+
+    <body class="dark">
+
+        <div class="preloader">
+            <div class="loading-mask"></div>
+            <div class="loading-mask"></div>
+            <div class="loading-mask"></div>
+            <div class="loading-mask"></div>
+            <div class="loading-mask"></div>
+        </div>
+
+        <!-- <div class="preview-wrapper">
+            <div class="switcher-head">
+                <span>Style Switcher</span>
+                <div class="switcher-trigger tf-tools"></div>
+            </div>
+
+            <div class="switcher-body">
+                <h4>Choose Color:</h4>
+                <ul class="color-options list-none">
+                    <li class="c0" data-color="color-0" title="Default">Default</li>
+                    <li class="c1" data-color="color-1" title="Red">Red</li>
+                    <li class="c2" data-color="color-2" title="Green">Green</li>
+                    <li class="c3" data-color="color-3" title="Blue">Blue</li>
+                </ul>
+            </div>
+        </div> -->
+
+        <main class="site-wrapper">
+            <div class="pt-table">
+                <div class="pt-tablecell page-welcome relative">
+                    <!-- .close -->
+                    {{ partial "components/close.html" . }}
+                    <!-- /.close -->
+
+                    <div class="author-image-large">
+                        <img src="../img/author.png" alt="">
+                    </div>
+                    
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-6 col-lg-7">
+                                <div class="page-title">
+                                    <h2>Garrett <span class="primary">Carder</span> <span class="title-bg">About</span></h2>
+                                    <p>I am the Student Manager of <a target="_blank" href="https://go.osu.edu/innovationstudio">The Innovation Studio</a>, CTO of <a target="_blank" href="https://see3d.org">See3D, 3D Printing for the Blind</a>, and the Web Master for <a target="_blank" href="https://bdaaosu.org">BDAA</a>. I am also a self-taught full stack web developer.</p>
+                                    <p>My love for technology began at a young age with my grandfather teaching me how to use a drill. This love grew in to a burning passion to learn anything I could. I came from taking apart nerf guns as a kid, to now being able to run any tool at the makerspace I am the student manager at and developing on several different technology stacks.</p>
+                                </div>
+                            </div>
+                        </div> <!-- /.row -->
+                    </div> <!-- /.container -->
+
+                    <nav class="page-nav clear">
+                        <div class="container">
+                            <div class="flex flex-middle space-between">
+                                <span class="prev-page"><a href="../" class="link">&larr; Prev Page</a></span>
+                                <span class="copyright hidden-xs">Copyright &copy; 2016 Phantom, All Rights Reserved.</span>
+                                <span class="next-page"><a href="../about" class="link">Next Page &rarr;</a></span>
+                            </div>
+                        </div>
+                        <!-- /.page-nav -->
+                    </nav>
+                    <!-- /.container -->
+
+                </div> <!-- /.pt-tablecell -->
+            </div> <!-- /.pt-table -->
+        </main> <!-- /.site-wrapper -->
+        
+        {{ partial "footer/scripts.html" . }}
+    </body>
+</html>

@@ -1,0 +1,19 @@
+<!-- ================================
+CSS Files
+================================= -->
+<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i|Open+Sans:400,600,700,800" rel="stylesheet">
+
+<!-- Select Linking Based on Page -->
+{{if $.Param "index"}}
+    <link rel="stylesheet" href="/css/themefisher-fonts.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/dark.css">
+    <link id="color-changer" rel="stylesheet" href="/css/colors/blue.css">
+{{else}}
+    <link rel="stylesheet" href="../css/themefisher-fonts.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/dark.css">
+    <link id="color-changer" rel="stylesheet" href="../css/colors/blue.css">
+{{end}}
