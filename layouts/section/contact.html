@@ -4,13 +4,15 @@
         <!-- meta charset -->
         <meta charset="utf-8">
         <!-- site title -->
-        <title>Phantom | Personal Resume Template</title>
+        <title>Garrett Carder - {{.Title}}</title>
         <!-- meta description -->
         <meta name="description" content="">
         <!-- mobile viwport meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- fevicon -->
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+        {{ partial "head/favicon.html" . }}
         
         {{ partial "head/styles.html" . }}
     </head>
