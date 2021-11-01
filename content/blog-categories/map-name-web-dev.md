@@ -1,3 +1,3 @@
 ---
-name: Web Dev
+title: Web-Dev
 ---

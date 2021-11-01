@@ -1,3 +1,3 @@
 ---
-name: Laser Cutting
+title: Laser-Cutting
 ---

@@ -10,9 +10,9 @@ media_folder: "static/img/uploads" # Media files will be stored in the repo unde
 public_folder: "/img/uploads" # The src attribute for uploaded media will begin with /images/uploads
 
 collections:
-  - name: "blog" # Used in routes, e.g., /admin/collections/blog
-    label: "Blog" # Used in the UI
-    folder: "content/blog" # The path to the folder where the documents are stored
+  - name: "blog-posts" # Used in routes, e.g., /admin/collections/blog
+    label: "Blog Posts" # Used in the UI
+    folder: "content/blog-posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
@@ -23,9 +23,9 @@ collections:
         name: "category"
         widget: "relation"
         collection: "blog-categories" # Relate blog collection to blog categories
-        searchFields: ["name"] # Search on Name Field
-        displayFields: ["name"]
-        valueField: "name"
+        searchFields: ["title"] # Search on Name Field
+        displayFields: ["title"]
+        valueField: "title"
         min: 0 # Declare [0,3] relation
         max: 3
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
@@ -37,4 +37,4 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}

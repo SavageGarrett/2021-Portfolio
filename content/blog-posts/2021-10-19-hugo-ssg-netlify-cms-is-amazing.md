@@ -2,7 +2,7 @@
 layout: blog
 title: Hugo SSG/Netlify CMS is Amazing!
 date: 2021-10-19T03:25:43.027Z
-category: Web Dev
+category: Web-Dev
 thumbnail: /img/uploads/screen-shot-2021-10-18-at-23.28.47.png
 rating: 5
 ---
