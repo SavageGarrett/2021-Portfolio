@@ -69,7 +69,7 @@
                                     {{ range (where $.Site.Pages "Section" "blog-categories") }}
                                         <!-- Ignore Header -->
                                         {{if not (eq .Title "Blog-categories")}}
-                                            <li><a href="#" data-filter=".{{.Title}}">{{.Title}}</a></li>
+                                            <li><a href="#" data-filter=".{{.Title}}">{{replace .Title "-" " "}}</a></li>
                                         {{end}}
                                     {{ end }}
 
@@ -91,20 +91,28 @@
                             </style>
 
                             <!-- Loop Through Blog Pages -->
-                            {{ range (where $.Site.Pages "Section" "blog-posts") }}
+                            {{ range (where $.Site.Pages "Section" "blog") }}
                                 <!-- Ignore Header -->
-                                {{if not (eq .Title "Blog-posts")}}
-                                    <div class="col-xs-12 col-sm-6 col-md-4 {{.Params.category}}"> <!-- TODO: Multiple Categories -->
-                                        <figure class="works-item">
-                                            <img src="../{{.Params.thumbnail}}" alt="">
-                                            <div class="overlay">
-                                                <figcaption class="works-inner">
-                                                    <h4>{{.Title}}</h4>
-                                                    <p>{{.Params.category}}</p>
-                                                </figcaption>
-                                            </div>
-                                            
-                                        </figure>
+                                {{if (eq .Layout "blog")}}
+
+                                    <!-- Get Individual Post Link -->
+                                    {{$fname := replace .File ".md" ""}} <!-- Strip .md postfix from file name -->
+                                    {{$fname := replace $fname "blog/" "./"}}
+
+                                    <div onClick="redirectLink('{{$fname}}')">
+                                        <div class="col-xs-12 col-sm-6 col-md-4 {{.Params.category}}"> <!-- TODO: Multiple Categories -->
+                                            <figure class="works-item">
+                                                <img src="../{{.Params.thumbnail}}" alt="">
+                                                
+                                                <div class="overlay">
+                                                    <figcaption class="works-inner">
+                                                        <h4>{{.Title}}</h4>
+                                                        <p>{{.Params.category}}</p>
+                                                    </figcaption>
+                                                </div>
+                                                
+                                            </figure>
+                                        </div>
                                     </div>
                                 {{end}}
                             {{ end }}

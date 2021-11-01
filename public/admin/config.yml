@@ -33,7 +33,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "blog-categories"
     label: "Blog Categories"
-    folder: "static/blog-categories"
+    folder: "content/blog-categories"
     create: true
     slug: "{{slug}}"
     fields:
