@@ -1,32 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
     <loc>https://garrettcarder.com/blog/</loc>
-    <lastmod>2021-10-18T18:16:38+00:00</lastmod>
-  </url><url>
+    <lastmod>2021-10-19T03:25:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://garrettcarder.com/blog/2021-10-19-hugo-ssg-netlify-cms-is-amazing/</loc>
+    <lastmod>2021-10-19T03:25:43+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://garrettcarder.com/</loc>
-    <lastmod>2021-10-18T18:16:38+00:00</lastmod>
-  </url><url>
+    <lastmod>2021-10-19T03:25:43+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://garrettcarder.com/blog/2021-10-18-laser-cut-wood-slab-for-lovelee-and-joes-wedding/</loc>
     <lastmod>2021-10-18T18:16:38+00:00</lastmod>
-  </url><url>
-    <loc>https://garrettcarder.com/blog-categories/map-name-laser-cutting/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://garrettcarder.com/about/</loc>
-  </url><url>
-    <loc>https://garrettcarder.com/blog-categories/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://garrettcarder.com/categories/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://garrettcarder.com/contact/</loc>
-  </url><url>
+  </url>
+  
+  <url>
+    <loc>https://garrettcarder.com/blog-categories/map-name-laser-cutting/</loc>
+  </url>
+  
+  <url>
     <loc>https://garrettcarder.com/projects/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://garrettcarder.com/resume/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://garrettcarder.com/tags/</loc>
-  </url><url>
+  </url>
+  
+  <url>
+    <loc>https://garrettcarder.com/blog-categories/map-name-web-dev/</loc>
+  </url>
+  
+  <url>
     <loc>https://garrettcarder.com/welcome/</loc>
   </url>
+  
 </urlset>

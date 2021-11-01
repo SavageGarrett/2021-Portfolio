@@ -1,0 +1,7 @@
+/* Syling For Single Blog Page */
+
+/* Thumbnail Image Styling */
+.thumbnail-image
+{
+    width: 600px !important; /* TODO: Dynamic For Page Size */
+}

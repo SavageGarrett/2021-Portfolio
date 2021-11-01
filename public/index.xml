@@ -6,7 +6,20 @@
     <description>Recent content in Index on Garrett Carder Portfolio Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Oct 2021 18:16:38 +0000</lastBuildDate><atom:link href="https://garrettcarder.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Oct 2021 03:25:43 +0000</lastBuildDate>
+    
+	<atom:link href="https://garrettcarder.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo SSG/Netlify CMS is Amazing!</title>
+      <link>https://garrettcarder.com/blog/2021-10-19-hugo-ssg-netlify-cms-is-amazing/</link>
+      <pubDate>Tue, 19 Oct 2021 03:25:43 +0000</pubDate>
+      
+      <guid>https://garrettcarder.com/blog/2021-10-19-hugo-ssg-netlify-cms-is-amazing/</guid>
+      <description>Until today, I have tried many different methods of building sites but was never quite satisfied with the combination of pricing model, build time, development time, and customizability. I initially learned PHP in high school, but it was a bit too involved for me at the time. I ended up investing most of my time into learning to create static sites from templates. In my freshman year of college, I started using express.</description>
+    </item>
+    
     <item>
       <title>Laser Cut Wood Slab for Lovelee and Joe&#39;s Wedding</title>
       <link>https://garrettcarder.com/blog/2021-10-18-laser-cut-wood-slab-for-lovelee-and-joes-wedding/</link>
@@ -17,11 +30,20 @@
     </item>
     
     <item>
-      <title></title>
+      <title>Laser-Cutting</title>
       <link>https://garrettcarder.com/blog-categories/map-name-laser-cutting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://garrettcarder.com/blog-categories/map-name-laser-cutting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web-Dev</title>
+      <link>https://garrettcarder.com/blog-categories/map-name-web-dev/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://garrettcarder.com/blog-categories/map-name-web-dev/</guid>
       <description></description>
     </item>
     

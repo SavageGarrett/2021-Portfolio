@@ -1,12 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Garrett Carder - {{.Title}}</title>
-</head>
-<body>
-    
-</body>
+<html class="no-js" lang="en-us">
+    <head>
+        <!-- meta charset -->
+        <meta charset="utf-8">
+        <!-- site title -->
+        <title>{{.Title}}</title>
+        <!-- meta description -->
+        <meta name="description" content="">
+        <!-- mobile viwport meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- fevicon -->
+        {{ partial "head/favicon.html" . }}
+        
+        <!-- ================================
+        CSS Files
+        ================================= -->
+        {{ partial "head/styles.html" . }}
+
+        <!-- Blog Single Specific CSS -->
+        <link rel="stylesheet" href="../../css/blog-single.css">
+    </head>
+
+    <body class="dark">
+
+        <div class="preloader">
+            <div class="loading-mask"></div>
+            <div class="loading-mask"></div>
+            <div class="loading-mask"></div>
+            <div class="loading-mask"></div>
+            <div class="loading-mask"></div>
+        </div>
+
+        <!-- <div class="preview-wrapper">
+            <div class="switcher-head">
+                <span>Style Switcher</span>
+                <div class="switcher-trigger tf-tools"></div>
+            </div>
+
+            <div class="switcher-body">
+                <h4>Choose Color:</h4>
+                <ul class="color-options list-none">
+                    <li class="c0" data-color="color-0" title="Default">Default</li>
+                    <li class="c1" data-color="color-1" title="Red">Red</li>
+                    <li class="c2" data-color="color-2" title="Green">Green</li>
+                    <li class="c3" data-color="color-3" title="Blue">Blue</li>
+                </ul>
+            </div>
+        </div> -->
+
+        <main class="site-wrapper">
+            <div class="pt-table">
+                <div class="pt-tablecell page-quotes relative">
+                    <!-- .close -->
+                    <a href="./" class="page-close"><i class="tf-ion-close"></i></a>
+                    <!-- /.close -->
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+                                <div class="text-center">
+                                    <img class="thumbnail-image" src="{{.Params.thumbnail}}" alt="{{.Title}}">
+                                    <h2>{{.Title}}</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                                </div>
+                            </div>                            
+                        </div> <!-- /.row -->
+                    </div> <!-- /.container -->
+
+                    <nav class="page-nav clear">
+                        <div class="container">
+                            <div class="flex flex-middle space-between">
+                                <span class="prev-page"><a href="works.html" class="link">&larr; Prev Page</a></span>
+                                <span class="copyright hidden-xs">Copyright &copy; 2016 Phantom, All Rights Reserved.</span>
+                                <span class="next-page"><a href="contact.html" class="link">Next Page &rarr;</a></span>
+                            </div>
+                        </div>
+                        <!-- /.page-nav -->
+                    </nav>
+                    <!-- /.container -->
+
+                </div> <!-- /.pt-tablecell -->
+            </div> <!-- /.pt-table -->
+        </main> <!-- /.site-wrapper -->
+        
+        <!-- ================================
+        JavaScript Libraries
+        ================================= -->
+        {{ partial "footer/scripts.html" . }}
+    </body>
 </html>
