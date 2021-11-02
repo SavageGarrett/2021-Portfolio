@@ -53,16 +53,20 @@
             <div class="pt-table">
                 <div class="pt-tablecell page-quotes relative">
                     <!-- .close -->
-                    <a href="./" class="page-close"><i class="tf-ion-close"></i></a>
+                    <a href="../" class="page-close"><i class="tf-ion-close"></i></a>
                     <!-- /.close -->
 
                     <div class="container">
                         <div class="row">
-                            <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
-                                <div class="text-center">
+                            <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8" align="center">
+                                <div class="content-container">
                                     <img class="thumbnail-image" src="{{.Params.thumbnail}}" alt="{{.Title}}">
-                                    <h2>{{.Title}}</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                                    <h2 class="blog-title">{{.Title}}</h2>
+                                    <p>{{ $.Params.date | time.Format ":date_long" }} | <a href="../">{{replace $.Params.category "-" " "}}</a></p>
+                                    <hr class="content-break">
+                                    <div class="blog-content">
+                                        {{.Content}}
+                                    </div>
                                 </div>
                             </div>                            
                         </div> <!-- /.row -->
@@ -70,11 +74,11 @@
 
                     <nav class="page-nav clear">
                         <div class="container">
-                            <div class="flex flex-middle space-between">
+                            <!-- <div class="flex flex-middle space-between">
                                 <span class="prev-page"><a href="works.html" class="link">&larr; Prev Page</a></span>
                                 <span class="copyright hidden-xs">Copyright &copy; 2016 Phantom, All Rights Reserved.</span>
                                 <span class="next-page"><a href="contact.html" class="link">Next Page &rarr;</a></span>
-                            </div>
+                            </div> -->
                         </div>
                         <!-- /.page-nav -->
                     </nav>

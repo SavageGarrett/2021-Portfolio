@@ -1,7 +1,54 @@
 /* Syling For Single Blog Page */
 
-/* Thumbnail Image Styling */
+/* Post Content Container */
+.content-container
+{
+    /* Restrict Width of All Content */
+    width: 650px !important;
+
+    /* Add Border, Radius Corners, and Background */
+    border: 1px solid #1e2530;
+    border-radius: 15px;
+    background-color: #1e2530;
+
+}
+
+/* Post Image Styles */
 .thumbnail-image
 {
-    width: 600px !important; /* TODO: Dynamic For Page Size */
+    /* Constrain Width to Same Size as Container */
+    width: 650px;
+
+    /* Radius the Top Corners */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+    /* Position Relatively, so The Image Can be Placed Below the Border */
+    position: relative;
+    z-index: 1;
+    left: -1px; /* I am one pixel to the right for some reason -__- */
+}
+
+/* Header Title Stying */
+.blog-title
+{
+    /* Blue Coloring */
+    color: #02B7CE !important;
+
+    /* Space Between Vertical Elements */
+    margin-top: 40px !important;
+}
+
+/* Pad Title and Content the Same */
+.blog-title, .blog-content
+{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+/* hr Content Break */
+.content-break
+{
+    width: 200px;
 }
