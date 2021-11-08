@@ -63,16 +63,16 @@
                         <div class="row">
                             <div class="col-xs-12">
                                 <ul class="filter list-inline">
+                                    <!-- All Categories - Always Exists -->
                                     <li><a href="#" class="active" data-filter="*">All</a></li>
 
                                     <!-- Loop Through Blog Categories -->
                                     {{ range (where $.Site.Pages "Section" "blog-categories") }}
                                         <!-- Ignore Header -->
                                         {{if not (eq .Title "Blog-categories")}}
-                                            <li><a href="#" data-filter=".{{.Title}}">{{replace .Title "-" " "}}</a></li>
+                                            <li><a href="#" id="{{.Title}}" data-filter=".{{.Title}}">{{replace .Title "-" " "}}</a></li>
                                         {{end}}
                                     {{ end }}
-
                                 </ul>
                             </div>
                         </div>
@@ -137,5 +137,6 @@
         
         {{ partial "footer/scripts.html" . }}
         <script src="../js/clickbox.js"></script>
+        <script src="../js/category.js" defer></script>
     </body>
 </html>

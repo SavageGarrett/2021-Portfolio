@@ -1,4 +1,0 @@
-[ZoneTransfer]
-ZoneId=3
-ReferrerUrl=https://github.com/gohugoio/hugo/releases
-HostUrl=https://github-releases.githubusercontent.com/11180687/cfeac1b5-83dd-4719-ae7d-10aa80ebde60?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20211102%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211102T054800Z&X-Amz-Expires=300&X-Amz-Signature=851846b71b8beabe692095f4800773bcd979a23c7840edb0be5beab675e7451a&X-Amz-SignedHeaders=host&actor_id=44272961&key_id=0&repo_id=11180687&response-content-disposition=attachment%3B%20filename%3Dhugo_0.88.1_Linux-64bit.deb&response-content-type=application%2Foctet-stream

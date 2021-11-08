@@ -62,7 +62,7 @@
                                 <div class="content-container">
                                     <img class="thumbnail-image" src="{{.Params.thumbnail}}" alt="{{.Title}}">
                                     <h2 class="blog-title">{{.Title}}</h2>
-                                    <p>{{ $.Params.date | time.Format ":date_long" }} | <a href="../">{{replace $.Params.category "-" " "}}</a></p>
+                                    <p>{{ $.Params.date | time.Format ":date_long" }} | <a href="../?category={{$.Params.category}}">{{replace $.Params.category "-" " "}}</a></p>
                                     <hr class="content-break">
                                     <div class="blog-content">
                                         {{.Content}}

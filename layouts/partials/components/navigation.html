@@ -1,0 +1,15 @@
+<nav class="page-nav clear">
+    <div class="container">
+        <div class="flex flex-middle space-between">
+            {{if isset $.Params "prev"}}
+                <span class="prev-page"><a href="../{{$.Params.prev}}" class="link">&larr; Prev Page</a></span>
+            {{end}}
+            
+            <span class="copyright hidden-xs">Copyright &copy; 2016 Phantom, All Rights Reserved.</span>
+
+            {{if isset $.Params "next"}}
+                <span class="next-page"><a href="../{{$.Params.next}}" class="link">Next Page &rarr;</a></span>
+            {{end}}
+        </div>
+    </div>
+</nav>
